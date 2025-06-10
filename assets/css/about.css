@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li{
+    
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(27, 168, 250);
+    font-size: 15px;
+    translate: -1.5rem;
+}
+
+
+
+
+.main-container{
+    width: 100%;
+    margin-top: 100px;
+     
+}
+
+
+.about-container img{
+    width: 300px;
+}
+.nombre{
+   
+    margin: 0;
+    animation: crecer 3s ease-in-out forwards;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+#about {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    gap: 30px;
+
+}
+#about p{
+    margin: 10px;
+}
+
+#about img{
+    border-radius: 50%;
+    width: 400px;
+}
+
+
+@keyframes crecer{
+ from{
+    font-size: 20px;
+ }
+ to{
+    font-size: 200px ;
+ }
+}
+
+
+.skills-container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.fondo-container{
+    position: absolute;
+    margin-top: 100PX;
+    margin-left: 400PX;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fondo{
+    margin: 0;
+    width: 100%;
+    font-size: 300px;
+    color: rgba(27, 168, 250, 0.034);
+}
+
+footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+
+
+
